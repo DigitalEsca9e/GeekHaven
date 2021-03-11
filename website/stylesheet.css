@@ -1,0 +1,307 @@
+
+#mh{										/*style for header background only*/
+	position:absolute;
+	height:40%;
+	width:100%;
+	background-image:url("images/geek1.jpg");
+	color:white;
+	top:0px;
+	left:0px;
+}
+#mp{										/*style of header text*/
+	font-family:"Designer Block";
+	outline:2px;
+	font-size:102px;
+	text-align:center;
+	text-transform:uppercase;
+	color:greenyellow; 
+	text-shadow:
+    -4px -4px 0 #8A2BE2,
+    4px -4px 0 #8A2BE2,
+    -4px 4px 0 #8A2BE2,
+    4px 4px 0 #8A2BE2;
+}
+#mpa{										/*style for anime division background*/
+	position:absolute;
+	height:60%;
+	width:50%;
+	left:0px;
+	bottom:0px;
+	top:40%;
+	background-image:url("images/otaku.jpg");
+	background-size:100%;
+}
+#mpg{										/*style for game division background*/
+	position:absolute;
+	left:50%;
+	height:60%;
+	width:50%;
+	right:0px;
+	bottom:0px;
+	top:40%;
+	background-image:url("images/game.jpg");
+	background-size:100%;
+}
+#ae{										/*style for anime division font*/
+	position:absolute;
+	top:0%;
+	font-weight:bold;
+	left:30%;
+	font-family:"Komika Axis", Komika;
+	font-size:72px;
+	border:none;
+	background:rgba(0,0,0,0.0);
+	color:rgba(255,0,0,1.0);
+	text-transform:uppercase;
+}
+#ae:hover{									/*style for anime division font on hover*/
+	background:rgba(192,192,192,0.5);
+	color:rgba(255,0,0,0.5)
+}
+#ge{										/*style for game division font*/
+	position:absolute;
+	top:0%;
+	font-weight:bold;
+	right:30%;
+	font-family:"Komika Axis", Komika;
+	font-size:72px;
+	border:none;
+	background:rgba(0,0,0,0.0);
+	color:rgba(0,0,255,1.0);
+	text-transform:uppercase;
+}
+#ge:hover{									/*style for game division font on hover*/
+	background:rgba(192,192,192,0.5);
+	color:rgba(0,0,255,0.5)
+}
+#p2{
+	background-color:#b31919;
+	margin:0px 0px;
+	margin-right:auto;
+}
+#p3{
+	background-color:#1E90FF;
+	margin:0px 0px;
+	margin-right:auto;
+}
+.carousel-container {
+  max-width: 100%;
+  position: relative;
+  bottom:7px;
+}
+
+/* Hide the images by default */
+.Slideholder {
+  display: none;
+}
+.Slideholder:hover{
+	cursor:pointer;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  cursor:auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  font-family:"Verdana";
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.marker {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.aregular{
+	background-image:url("images/134.jpg");
+	height:100vh;
+	width:100vw;
+}
+.gregular{
+	background-image:url("images/245.jpeg");
+	height:100vh;
+	width:100vw;
+}
+.aheader{
+	margin:auto;
+	height:20%;
+	width:100vw;
+	position:absolute;
+	top:0%;
+	background-color:#b31919;
+}
+.gheader{
+	margin:auto;
+	height:20%;
+	width:100vw;
+	position:absolute;
+	top:0%;
+	background-color:#1E90FF;
+}
+
+.gohome{
+	font-family:"Designer Block";
+	outline:2px;
+	font-size:72px;
+	text-align:center;
+	text-transform:uppercase;
+	color:greenyellow; 
+	text-shadow:
+    -4px -4px 0 #8A2BE2,
+    4px -4px 0 #8A2BE2,
+    -4px 4px 0 #8A2BE2,
+    4px 4px 0 #8A2BE2;
+	background-color:rgba(0,0,0,0.0);
+	border:none;
+	position:absolute;
+	top:5%;
+	right:2.5%;
+	
+}
+.gohome:hover{
+	cursor:pointer;
+}
+.list{
+	position:absolute;
+	top:20%;
+}
+.item{
+	box-sizing:border-box;
+	padding:10px;
+	font-size:32px;
+	border:solid gray;
+	border-width:1px;
+	padding-top:0px;
+	background-color:#b31919;
+	text-decoration:none;
+	font-family:"Verdana", sans-serif;
+	color:black;
+}
+.gitem{
+	box-sizing:border-box;
+	padding:10px;
+	font-size:32px;
+	border:solid gray;
+	border-width:1px;
+	padding-top:0px;
+	background-color:#1E90FF;
+	text-decoration:none;
+	font-family:"Verdana", sans-serif;
+	color:black;
+}
+.item:hover{
+	opacity:0.8;
+}
+.allpara{
+	position:relative;
+	top:15%;
+	margin:5%;
+	margin-top:0%;
+	background-color:	#FFEBCD;
+	padding-top:50px;
+	padding-bottom:50px;
+	z-index:-10;
+}
+.gallpara{
+	position:relative;
+	top:15%;
+	margin:5%;
+	margin-top:0%;
+	background-color:	#F0FFFF;
+	padding-top:50px;
+	padding-bottom:50px;
+	z-index:-10;
+}
+.naming{
+	font-family:"Shirkhand-regular";
+	color:white;
+	font-size:72px;
+	position:absolute;
+	top:15%;
+	left:2.5%;
+}
+.afoot{
+	margin:auto;
+	height:20%;
+	width:100vw;
+	position:absolute;
+	background-color:#b31919;
+}
+.gfoot{
+	margin:auto;
+	height:20%;
+	width:100vw;
+	position:absolute;
+	background-color:#1E90FF;
+}
+.para{
+	margin:10px;
+}
