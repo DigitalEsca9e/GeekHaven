@@ -40,13 +40,13 @@ function sGames(){												//clears the interval created by the mouse hover a
 	imageG.style.backgroundImage="url(images/game.jpg)";
 }
 function goAnime(){												//redirects to the anime page
-	location.href="anime.html";
+	location.href="website/anime.html";
 }
 function goGame(){												//redirects to the game page 
-	location.href="games.html";
+	location.href="website/games.html";
 }
 function goHome(){
-	location.href="index.html";
+	location.href="../index.html";
 }
 
 
