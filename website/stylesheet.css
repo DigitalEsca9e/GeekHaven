@@ -305,3 +305,7 @@
 .para{
 	margin:10px;
 }
+.carousel-img{
+	width:100vw;
+	height:95vh;
+}

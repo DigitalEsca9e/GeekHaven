@@ -46,7 +46,7 @@ function goGame(){												//redirects to the game page
 	location.href="games.html";
 }
 function goHome(){
-	location.href="home.html";
+	location.href="index.html";
 }
 
 
